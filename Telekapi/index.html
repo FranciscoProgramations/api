@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>API</title>
+</head>
+<body>
+     <header class="menu">
+        <div class="header">
+            <div class="header-txt">API</div>
+            <div class="header-img"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="pg2.html">Página de APIs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <label for="pokemonNome">Pokemon</label>
+        <input type="text" id="pokemonNome" placeholder="Insira o nome de um Pokemon">
+        <button id="buttonPokemon" onclick="chamaPokemon()">Buscar</button>
+        
+        <div class="mostra">
+            <p id="dex"></p>
+            <img src="" alt="Sprite" id="sprite" style="display: none;">
+        </div>
+    </main>
+
+<footer>
+    <p>© Francisco dos Santos</p>
+</footer>
+<script src="/js/script.js"></script>
+</body>
+</html>
